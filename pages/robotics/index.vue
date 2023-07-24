@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center mt-8">
     <div class="w-2/3 md:text-center text-left">
-      <h1 class="text-5xl font-semibold text-blue-500 md:mt-8 mt-4">Robotics</h1>
+      <h1 class="md:text-5xl text-3xl font-semibold text-blue-500 md:mt-8 mt-4">Robotics</h1>
 
       <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-8 gap-2 mt-16">
         <div>

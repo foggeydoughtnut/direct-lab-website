@@ -1,8 +1,9 @@
 <template>
   <div class="flex justify-center mt-8">
     <div class="w-2/3 md:text-center text-left">
-      <h1 class="text-5xl font-semibold text-blue-500 md:mt-8 mt-4">Decision Intelligence</h1>
-      <p class="md:mt-16 mt-8 text-left">Almost all projects in our lab fall within the realm of decision intelligence: the art of
+      <h1 class="md:text-5xl text-3xl font-semibold text-blue-500 md:mt-8 mt-4">Decision Intelligence</h1>
+      <p class="md:mt-16 mt-8 text-left">Almost all projects in our lab fall within the realm of decision intelligence:
+        the art of
         building intelligence hierarchies capable of making decisions with limited information. At times, these
         hierarchies may choose to collect more data (explore), generalize based on current understanding (exploit), or
         augment decisions based on prediction (infer). The following projects are considered foundational decision
@@ -21,6 +22,7 @@
             reinforcement learning. </p>
         </div>
 
+        <img src="/Placeholder-Image.png" class="mt-16 md:mt-0 md:hidden block" />
         <div>
           <h1 class="text-2xl font-semibold text-left text-blue-500 md:mt-4 mt-0">Learning Heuristics for Motion Planning
           </h1>
@@ -29,8 +31,8 @@
             can speed up the search; however, a poorly chosen heuristic can be detrimental by giving us a less than ideal
             solution. This research uses machine learning and modern ai tools to build heuristic functions suitable for
             high-speed searching, without losing optimality.</p>
-          </div>
-          <img src="/Placeholder-Image.png" class="mt-16 md:mt-0" />
+        </div>
+        <img src="/Placeholder-Image.png" class="mt-16 md:mt-0 md:block hidden" />
 
         <img src="/Placeholder-Image.png" class="mt-16 md:mt-0" />
         <div>
@@ -45,5 +47,6 @@
       </div>
 
 
+    </div>
   </div>
-</div></template>
+</template>
