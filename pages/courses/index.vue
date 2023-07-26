@@ -1,8 +1,8 @@
 <template>
   <div class="flex justify-center mt-8">
-    <div class="w-1/2 md:text-center text-left">
+    <div class="md:w-1/2 w-2/3 md:text-center text-left">
       <h1 class="md:text-5xl text-3xl font-semibold text-blue-500 md:mt-8 mt-4">Courses</h1>
-      <p class="md:mt-16 mt-8 text-center text-2xl font-semibold">Dr. Mario teaches several courses related to Lab
+      <p class="md:mt-16 mt-8 md:text-center text-2xl font-semibold">Dr. Mario teaches several courses related to Lab
         research.</p>
 
       <div class="text-left md:mt-8 mt-4">

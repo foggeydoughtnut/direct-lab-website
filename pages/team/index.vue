@@ -4,7 +4,7 @@
       <div class="w-2/3 text-left">
         <h1 class="text-2xl font-semibold text-blue-500 md:mt-8 mt-4 md:text-center">DIRECT Lab Team</h1>
 
-        <div>
+        <div class="">
           <h2 class="text-xl font-semibold text-left md:mt-8 mt-4">Leadership</h2>
           <p class="md:mt-8 mt-4">
             Dr. Mario founded the DIRECT lab in 2021 and currently has five Ph.D. students, eight Masters students,
@@ -24,26 +24,26 @@
         <div> <!-- PHD -->
           <h2 class="text-xl font-semibold text-left md:my-16 my-8">PhD Students</h2>
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-4 gap-8">
+            <TeamMember image-src="/team/Christopher.jpg" name="Christopher Allred"
+              bio="Christopher is Christopher, a delicate but complex individual. Much like a French omlette." />
+            <TeamMember image-src="/team/Kirby.png" name="Ryan Anderson" bio="" />
+            <TeamMember image-src="/team/TaylorA.jpg" name="Taylor Anderson"
+              bio="Currently is the top of the leaderboard in the DIRECT Lab Super Smash Bros. Nuf sed." />
             <TeamMember image-src="/team/Yoshi.png" name="Ela Bohlourihajar" bio="" />
             <TeamMember image-src="/team/Robbie.jpg" name="Robbie Buck" bio="" />
             <TeamMember image-src="/team/picture_of_huzeyfe.jpg" name="Huzefe Kocab"
               bio="Huzeyfe Kocabas is interested in exploring swarm robotics that reduce the overall time of task completion. He is specializing in auction-based approaches." />
-            <TeamMember image-src="/team/Christopher.jpg" name="Christopher Allred"
-              bio="Christopher is Christopher, a delicate but complex individual. Much like a French omlette." />
-            <TeamMember image-src="/team/TaylorA.jpg" name="Taylor Anderson"
-              bio="Currently is the top of the leaderboard in the DIRECT Lab Super Smash Bros. Nuf sed." />
-            <TeamMember image-src="/team/Kirby.png" name="Ryan Anderson" bio="" />
           </div>
         </div>
 
         <div> <!-- Masters -->
           <h2 class="text-xl font-semibold text-left md:my-16 my-8">Masters Students</h2>
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-4 gap-8">
-            <TeamMember image-src="/team/Ganondorf_SSBU.png" name="Chad" bio="" />
-            <TeamMember image-src="/team/ToonLink.png" name="Colton Hill" bio="" />
             <TeamMember image-src="/team/CaptainFalcon.png" name="Tayler Baker" bio="" />
             <TeamMember image-src="/team/Luigi.png" name="Brian Callister" bio="" />
             <TeamMember image-src="/team/MetaKnight.png" name="Trey Crowther" bio="" />
+            <TeamMember image-src="/team/ToonLink.png" name="Colton Hill" bio="" />
+            <TeamMember image-src="/team/Ganondorf_SSBU.png" name="Chad" bio="" />
 
           </div>
         </div>
@@ -52,10 +52,10 @@
           <h2 class="text-xl font-semibold text-left md:my-16 my-8">Undergraduate Students</h2>
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-4 gap-8">
 
-            <TeamMember image-src="/team/Gabe.jpg" name="Gabe Tonks" bio="" />
+            <TeamMember image-src="/team/Ness.png" name="Johnathan Craig" bio="" />
             <TeamMember image-src="/team/Pac-Man.png" name="Braxton Geary" bio="" />
             <TeamMember image-src="/team/Pikachu.png" name="Madison Patch" bio="" />
-            <TeamMember image-src="/team/Ness.png" name="Johnathan Craig" bio="" />
+            <TeamMember image-src="/team/Gabe.jpg" name="Gabe Tonks" bio="" />
           </div>
         </div>
 
@@ -64,8 +64,8 @@
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-4 gap-8">
             <TeamMember image-src="/team/Carter.jpg" name="Carter Bailey"
               bio="I enjoy being in the outdoors especially when I can be on my bike. You can sometimes find me in the lab working on code or robots. My research ranges from training machine learned models to creating path planners for specific purposes" />
+              <TeamMember image-src="/team/JigglyPuff.png" name="Laurel Bingham" bio="" />
             <TeamMember image-src="/team/Lucario.png" name="Johnathan Kunz" bio="" />
-            <TeamMember image-src="/team/JigglyPuff.png" name="Laurel Bingham" bio="" />
           </div>
         </div>
 
