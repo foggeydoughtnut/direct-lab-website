@@ -17,5 +17,6 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "vue3-carousel-nuxt": "^1.1.0"
   }
 }

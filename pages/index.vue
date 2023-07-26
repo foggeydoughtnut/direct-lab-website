@@ -12,7 +12,19 @@
         <h1 class="text-2xl font-semibold text-blue-500 md:mt-8 mt-4">Mission and Purpose</h1>
         <p class="md:mt-8 mt-4">DIRECT Lab strives to improve quality of life by developing intelligent systems capable of
           assisting humans operating in a complex and uncertain world.</p>
+
+
         <!-- Carousel -->
+        <div class="md:my-16 my-4">
+          <Carousel :autoplay="4000" :wrap-around="true">
+            <Slide v-for="image in carouselImages" :key="image">
+              <div class="carousel__item flex items-center justify-center w-full h-full">
+                <img :src=image class="object-cover w-full h-full" />
+              </div>
+            </Slide>
+          </Carousel>
+        </div>
+
         <h1 class="text-2xl font-semibold text-blue-500 md:mt-16 mt-8">About the Lab</h1>
         <p class="md:mt-8 mt-4">
           USU’s DIRECT lab covers three categories of research: Decision Intelligence, Robotics, and Electrified
@@ -28,7 +40,8 @@
             <img src="/Decision-Int-Picture.jpg" />
           </NuxtLink>
           <div class="flex flex-col">
-            <NuxtLink to="/decision-intelligence" class="text-2xl font-semibold text-blue-500 text-start underline">Decision Intelligence</NuxtLink>
+            <NuxtLink to="/decision-intelligence" class="text-2xl font-semibold text-blue-500 text-start underline">
+              Decision Intelligence</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Understanding principles that allow human-like decision making in uncertain
               environments with limited information </p>
           </div>
@@ -46,7 +59,8 @@
             <img src="/Electrified-Transportation.png" class="mt-16 md:mt-0" />
           </NuxtLink>
           <div class="flex flex-col">
-            <NuxtLink to="/electrified-transportation" class="text-2xl font-semibold text-start text-blue-500 underline">Electrified Transportation</NuxtLink>
+            <NuxtLink to="/electrified-transportation" class="text-2xl font-semibold text-start text-blue-500 underline">
+              Electrified Transportation</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Intelligent clean energy autonomy for transportation, cities, and
               infrastructure</p>
           </div>
@@ -69,16 +83,28 @@
             <NuxtLink
               to="https://docs.google.com/forms/d/e/1FAIpQLSfAX4iZq1ByAlNWtE0D37OVTnP5bRa7xBrjjy5CZY_AwRbycw/viewform"
               class="w-full p-2 px-16 border border-blue-500 bg-none hover:bg-blue-100 transition-all duration-300 delay-75 text-lg text-blue-500 rounded-lg"
-              target="_blank"
-            >
+              target="_blank">
               Contact Us
             </NuxtLink>
           </div>
         </div>
       </div>
-
-
-
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+  const carouselImages = [
+    'tank.jpg',
+    'AUV-Carousel.jpg',
+    'UAV-Carousel.jpg',
+    'Bio-Inspired.jpg'
+  ]
+</script>
+
+
+<style>
+  .carousel__slide {
+    height: 40vh;
+  }
+</style>
