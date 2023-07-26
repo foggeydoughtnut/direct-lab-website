@@ -15,7 +15,7 @@
         <img src="/Bus-EVR.png"/>
       </div>
       <div class="w-full flex justify-center items-center md:mt-8 mt-4">
-        <img src="ASPIRE-Research.png" />
+        <img src="/ASPIRE-Research.png" />
       </div>
     </div>
 

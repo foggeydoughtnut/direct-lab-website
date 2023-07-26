@@ -2,7 +2,7 @@
   <div>
     <div class="md:h-[60vh] h-[35vh] relative w-screen">
       <img src="/Spot-Zombie.jpg" class="h-full w-full object-cover absolute brightness-50" />
-      <img src="/DIRECT Lab Logo-A.png" class="object-scale-down absolute md:top-0 top-4 w-full" />
+      <img src="/DIRECTLabLogo-A.png" class="object-scale-down absolute md:top-0 top-4 w-full" />
       <h1 class=" text-white text-xl lg:text-3xl font-semibold absolute md:bottom-20 bottom-10 text-center w-full">
         Decision Intelligence, Robotics, and Electrified Transportation Lab</h1>
     </div>
@@ -95,10 +95,10 @@
 
 <script setup lang="ts">
   const carouselImages = [
-    'tank.jpg',
-    'AUV-Carousel.jpg',
-    'UAV-Carousel.jpg',
-    'Bio-Inspired.jpg'
+    '/tank.jpg',
+    '/AUV-Carousel.jpg',
+    '/UAV-Carousel.jpg',
+    '/Bio-Inspired.jpg'
   ]
 </script>
 
