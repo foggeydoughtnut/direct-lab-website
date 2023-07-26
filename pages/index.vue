@@ -25,29 +25,29 @@
 
         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-8 gap-2 mt-16">
           <img src="/Decision-Int-Picture.jpg" />
-          <div>
-            <h1 class="text-2xl font-semibold text-left text-blue-500 md:mt-4 mt-0">Decision Intelligence</h1>
+          <div class="flex flex-col">
+            <NuxtLink to="/decision-intelligence" class="text-2xl font-semibold text-blue-500 text-start underline">Decision Intelligence</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Understanding principles that allow human-like decision making in uncertain
               environments with limited information </p>
           </div>
 
           <img src="/Spot.jpg" class="mt-16 md:mt-0" />
-          <div>
-            <h1 class="text-2xl font-semibold text-left text-blue-500 md:mt-4 mt-0">Robotics</h1>
+          <div class="flex flex-col">
+            <NuxtLink to="/robotics" class="text-2xl font-semibold text-blue-500 text-start underline">Robotics</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Design of intelligence hierarchy and architectures to quickly learn and
               adapt on all types of robots</p>
           </div>
 
           <img src="/Electrified-Transportation.png" class="mt-16 md:mt-0" />
-          <div>
-            <h1 class="text-2xl font-semibold text-left text-blue-500 md:mt-4 mt-0">Electrified Transportation</h1>
+          <div class="flex flex-col">
+            <NuxtLink to="/electrified-transportation" class="text-2xl font-semibold text-start text-blue-500 underline">Electrified Transportation</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Intelligent clean energy autonomy for transportation, cities, and
               infrastructure</p>
           </div>
 
           <img src="/spot-outreach.png" class="mt-16 md:mt-0" />
-          <div>
-            <h1 class="text-2xl font-semibold text-left text-blue-500 md:mt-4 mt-0">Outreach</h1>
+          <div class="flex flex-col">
+            <NuxtLink to="/outreach" class="text-2xl font-semibold text-start text-blue-500 underline">Outreach</NuxtLink>
             <p class="text-left md:mt-8 mt-2">Building ties to communities and future researchers</p>
           </div>
         </div>
